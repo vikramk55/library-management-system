@@ -1,8 +1,6 @@
 import unittest
-from entities.patron import Patron
-from repositories.patron_repository import PatronRepository
 from services.patron_service import PatronService
-from repositories.in_memory_repository import InMemoryBookRepository, InMemoryPatronRepository, InMemoryTransactionRepository
+from repositories.in_memory_repository import InMemoryPatronRepository
 
 class TestPatronService(unittest.TestCase):
     def setUp(self):

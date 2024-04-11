@@ -1,8 +1,6 @@
 import unittest
-from entities.book import Book
-from repositories.book_repository import BookRepository
 from services.book_service import BookService
-from repositories.in_memory_repository import InMemoryBookRepository, InMemoryPatronRepository, InMemoryTransactionRepository
+from repositories.in_memory_repository import InMemoryBookRepository
 
 class TestBookService(unittest.TestCase):
     def setUp(self):
