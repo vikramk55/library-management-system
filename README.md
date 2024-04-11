@@ -1,4 +1,4 @@
-```markdown
+
 # Library Management System
 
 This project is a simple library management system implemented in Python, adhering to SOLID principles. It provides functionalities to manage books, patrons, and transactions.
